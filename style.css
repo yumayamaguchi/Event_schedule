@@ -32,26 +32,26 @@ header div {
 }
 
 .new {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
 }
 
 .entry {
+    width: 450px;
     border: .5px solid #dddddd;
     padding: 10px;
 }
 
-.entry p {
+.title {
     margin-bottom: 0;
-    font-size: 15px;
-}
-
-input {
-    height: 30px;
-    width: 400px;
+    font-size: 20px;
+    font-weight: 800;
 }
 
 .entry .type input {
+    height: 40px;
+    width: 450px;
+    font-size: 18px;
     border: none;
     border-bottom: 1px solid #dddddd;
     background-color: #f7f4f4;
@@ -61,7 +61,15 @@ input {
     margin-top: 30px;
 }
 
-.entry .type div .error {
+.error {
     color: red;
     margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* check.php */
+
+.bt input {
+    font-size: 20px;
+    margin-right: 70px;
 }
